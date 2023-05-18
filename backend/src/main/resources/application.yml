@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://testarjit.database.windows.net:1433;databaseName=test
+    username: arjit
+    password: Welcome@1234567
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+    hibernate:
+      ddl-auto: update
